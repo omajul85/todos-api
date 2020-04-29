@@ -1,24 +1,5 @@
-# README
+# TODOS-API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### request specs
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Request specs are designed to drive behaviour through the full stack, including routing. This means they can hit the applications' HTTP endpoints as opposed to controller specs which call methods directly. Since we're building an API application, this is exactly the kind of behaviour we want from our tests.
