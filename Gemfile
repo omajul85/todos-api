@@ -25,8 +25,9 @@ gem 'jwt'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+# Allow for custom representations of JSON responses
+# Ex: rails g serializer item
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
